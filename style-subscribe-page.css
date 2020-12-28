@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Area */
+
+nav{
+    display: flex;
+    align-items: center;
+    background-image: url("Imagens/Red-Gradient-Background.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 8vh;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+
+nav .nav-area .logo{
+    background-image: url("Imagens/Portugal_FPF.png");
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    text-indent: -99999999px;
+    background-size: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    top: -10px;
+    
+}
+.nav-area {
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-area a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    align-content: center;
+}
+nav .menu{
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+/* Transition in Navigation area */
+
+nav{
+    transition:ease-in-out;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.25s;
+}
+
+nav .menu:hover{
+    animation:ease-out;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.25s;
+}
+
+#subscribe {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
