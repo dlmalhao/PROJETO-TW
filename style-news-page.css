@@ -69,6 +69,7 @@ nav .menu:hover{
     animation-delay: 0.25s;
 }
 
+/* Nav underline */
 #news {
     text-decoration: underline;
     text-underline-offset: 8px;

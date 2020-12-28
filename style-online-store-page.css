@@ -69,7 +69,8 @@ nav .menu:hover{
     animation-delay: 0.25s;
 }
 
-#onlinestore {
+/* Nav underline */
+#online {
     text-decoration: underline;
     text-underline-offset: 8px;
 }
