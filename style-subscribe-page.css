@@ -18,39 +18,40 @@ nav{
     height: 300px;
 }
 
-nav .nav-area .logo{
+.logo{
     background-image: url("Imagens/Portugal_FPF.png");
     display: inline-block;
     height: 200px;
     width: 150px;
-    text-indent: -99999999px;
     background-size: 150px;
     position: relative;
     background-repeat: no-repeat;
     top: -10px;
+    left: 20px;
     
 }
+
+/* Menu Text */
 .nav-area {
+    padding-left: 50px;
     list-style:none;
     display: flex;
     justify-content: space-around;
     width: 70%;
-    text-align: center;
     letter-spacing: 8px;
     font-size: 15px;
     font-weight: bold;
+    position: relative;
+    padding-bottom: 30px;
 }
 
-.nav-area a{
+
+nav .menu{
+    position: relative;
     text-decoration: none;
     color:white;
     text-align: center;
     align-content: center;
-}
-nav .menu{
-    position: relative;
-    top: 65px;
-    left: 150px;
 }
 
 /* Transition in Navigation area */
@@ -62,16 +63,19 @@ nav{
     transition-delay: 0.25s;
 }
 
-nav .menu:hover{
-    animation:ease-out;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0.25s;
-}
-
 /* Nav underline */
 #subscribe {
     text-decoration: underline;
     text-underline-offset: 8px;
 }
 
+footer{
+    background-color: #990000;
+}
+
+@media screen and (max-width: 1100px){
+    .nav-area{
+        
+        
+    }
+}
