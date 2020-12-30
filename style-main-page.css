@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-/* Navigation Area */
 
+/* Navigation Area */
 nav{
     display: flex;
     align-items: center;
@@ -18,6 +18,8 @@ nav{
     height: 300px;
 }
 
+
+/*Image of Nav Area*/
 .logo{
     background-image: url("Imagens/Portugal_FPF.png");
     display: inline-block;
@@ -28,8 +30,8 @@ nav{
     background-repeat: no-repeat;
     top: -10px;
     left: 20px;
-    
 }
+
 
 /* Menu Text */
 .nav-area {
@@ -54,8 +56,8 @@ nav .menu{
     align-content: center;
 }
 
-/* Transition in Navigation area */
 
+/* Transition in Navigation area */
 nav{
     transition:ease-in-out;
     transition-duration: 1s;
@@ -63,13 +65,25 @@ nav{
     transition-delay: 0.25s;
 }
 
+
 /* Nav underline */
 #main {
     text-decoration: underline;
     text-underline-offset: 8px;
 } 
 
+
 footer{
     background-color: #990000;
 }
 
+
+/*Adjust for smartphone / tablet */
+@media screen and (max-width:1000px) {
+    .nav-area{
+        flex-direction: column;
+        align-items: center;
+        line-height: 2.2;
+        top: 10px;       
+    }   
+}
