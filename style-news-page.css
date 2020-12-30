@@ -69,6 +69,120 @@ nav{
     text-underline-offset: 8px;
 }
 
-footer{
+.contact-area{
     background-color: #990000;
 }
+
+.img1{
+   background-image: url("Imagens/plantel.png");
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: 700px;
+   margin-left: 50px;
+   width: 570px;
+   height: 375px;
+
+}
+
+.img2{
+    background-image: url("Imagens/konami.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-left: 50px;
+    width: 570px;
+    height: 375px;
+}
+
+.img3{
+    background-image: url("Imagens/fernandogomes.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-left: 50px;
+    width: 570px;
+    height: 375px;
+}
+
+.img4{
+    background-image: url("Imagens/noticia2.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-left: 50px;
+    width: 570px;
+    height: 375px;
+}
+
+.img5{
+    background-image: url("Imagens/plantel.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-left: 50px;
+    width: 570px;
+    height: 375px;
+}
+
+.img6{
+    background-image: url("Imagens/fifaworldcup.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-right: 50px;
+    width: 570px;
+    height: 375px;
+}
+
+
+
+.img8{
+    background-image: url("Imagens/vitoroliveira.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-right: 50px;
+    width: 600px;
+    height: 375px;
+}
+
+.img9{
+    background-image: url("Imagens/croacia.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    margin-right: 50px;
+    width: 600px;
+    height: 375px;
+}
+
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 22px;
+
+}
+
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 50px;
+
+}
+
+.head1{
+    width: 570px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.head2{
+    width: 500px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+section{
+    column-count: 2;
+}
+
