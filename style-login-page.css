@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Area */
+
+.header{
+    display: flex;
+    align-items: center;
+    background-image: url("Imagens/Red-Gradient-Background.jpg");
+    background-repeat: no-repeat;
+    min-height: 8vh;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+}
+
+.logo {
+    background-image: url("Imagens/Portugal_FPF.png");
+    width: 120px;
+    height: 160px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+    
+   
+
+
+/* Transition in Navigation area */
+
+nav{
+    transition:ease-in-out;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.25s;
+}
+
+
+
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url("Imagens/original.jpg") ; /*mudar a foto no fotoshop, meter blur*/
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+
+
+.form {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#btn1 {
+    top: 0;
+    left: 0;
+    
+    width: 110px;
+    height: 25%;
+    background: rgb(134, 11, 11);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+footer{
+    background: linear-gradient(rgb(134, 13, 13),rgb(70, 1, 1));
+    
+}
