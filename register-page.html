@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style-login-page.css">
+    <link rel="stylesheet" type="text/css" href="style-register-page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <title>Login/Register - Portugal</title>
+    <title>Register - Portugal</title>
 </head>
 <body>
     <div class="header"> 
         <a href=""></a>
         <a href="main_page.html" class="logo"></a>
-        <p class="headlogin">Login</p>
+        <p class="headlogin">Register</p>
     </div>
 
 
@@ -20,14 +20,16 @@
     <div class="back" id="back1">
         <div class="form">
             <div class="button">
-                <p class="toggle-btn" id="btn1">Log in</p>
+                <p class="toggle-btn" id="btn1">Register</p>
             </div>
 
             <form class="inputs">
                 <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="E-mail" required>
                 <input type="password" class="input-field" id="pass" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-box" required><span>Remember Password</span>
-                <button type="submit" class="submit-button" id="login">Log in</button>
+                <input type="password" class="input-field" id="confirm-pass" placeholder="Confirm Password" required>              
+                <input type="checkbox" class="check-box" required><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-button" id="register">Register</button>
                 
             </form>
         </div> 
@@ -36,7 +38,7 @@
     <footer>
         <div>
             <a href="#" class="contact-area">Contact Us</a>
-        </div>
+        </div>>
     </footer>
 </body>
 </html>

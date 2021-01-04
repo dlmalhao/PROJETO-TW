@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style-login-page.css">
+    <link rel="stylesheet" type="text/css" href="style-sign-in-page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>Login/Register - Portugal</title>
@@ -12,27 +12,22 @@
     <div class="header"> 
         <a href=""></a>
         <a href="main_page.html" class="logo"></a>
-        <p class="headlogin">Login</p>
+        <p class="headlogin">Login / Register</p>
     </div>
-
-
 
     <div class="back" id="back1">
         <div class="form">
-            <div class="button">
-                <p class="toggle-btn" id="btn1">Log in</p>
+            <div class="form2">
+                <div>
+                    <p id="p1">Already have an account ?</p>
+                    <a href="login-page.html" class="button" id="login-button">Login</a>
+                    <br>
+                    <p id="p2">New here ?</p>
+                    <a href="register-page.html" class="button" id="register-button">Register</a>
+                </div>
             </div>
-
-            <form class="inputs">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="password" class="input-field" id="pass" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-box" required><span>Remember Password</span>
-                <button type="submit" class="submit-button" id="login">Log in</button>
-                
-            </form>
         </div> 
     </div>
-
     <footer>
         <div>
             <a href="#" class="contact-area">Contact Us</a>

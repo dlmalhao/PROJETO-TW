@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Navigation Area */
@@ -11,24 +12,20 @@ nav{
     align-items: center;
     background-image: url("Imagens/Red-Gradient-Background.jpg");
     background-repeat: no-repeat;
-    font-family: 'Ubuntu', sans-serif;
     min-height: 8vh;
     text-align: center;
     padding: 20px;
-    height: 300px;
+    height: 200px;
 }
 
-.logo{
+.logo {
     background-image: url("Imagens/Portugal_FPF.png");
-    display: inline-block;
-    height: 200px;
-    width: 150px;
-    background-size: 150px;
-    position: relative;
+    width: 120px;
+    height: 160px;
+    background-size: 120px;
     background-repeat: no-repeat;
-    top: -10px;
-    left: 20px;
-    
+    background-position: center;
+    position: relative;
 }
 
 /* Menu Text */
@@ -72,15 +69,30 @@ nav{
 /* Footer */
 footer{
     background-color: #990000;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.contact-area{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
 }
 
 
 /*Adjust for smarthphone/ tablet */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
     .nav-area{
         flex-direction: column;
         align-items: center;
         line-height: 2.2;
-        top: 10px;       
+        top: 10px;  
+        font-size: 15px;     
     }   
+    #separation {
+        display: none;
+    }
 }

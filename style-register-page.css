@@ -43,7 +43,7 @@
     text-decoration: underline;
     text-underline-offset: 8px;
     margin: auto;
-    right: 55px;
+    right: 43px;
 }
 
 
@@ -79,7 +79,7 @@
 }
 
 .toggle-btn {
-    padding: 10px 30px;
+    padding: 10px 23px;
     background: transparent;
     border: 0;
     outline: none;
@@ -97,7 +97,7 @@
     background: rgb(8, 71, 16);
     border-radius: 30px;
     transition: 0.5s;
-    left: 100px;
+    left: 110px;
     
 }
 
@@ -173,5 +173,6 @@ footer{
     .logo{
         position: relative;
         margin: 6% auto;
+        left: 11px;
     }
 }
