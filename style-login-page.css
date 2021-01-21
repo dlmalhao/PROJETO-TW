@@ -26,7 +26,8 @@
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
+    left: 15px;
 }
 
 
@@ -158,13 +159,18 @@ footer{
 }
 
 
-@media screen and (max-width:650px){
-    .headlogin{
-        display: none;
-    }
+/*Adjust for smartphone / tablet */
+@media screen and (max-width:1200px) {
+    .nav-area{
+        flex-direction: column;
+        position: absolute;
+        line-height: 2;
+        font-size: 15px; 
+        margin-top: 22px;
+        
 
-    .logo{
-        position: relative;
-        margin: 6% auto;
+    }   
+    #separation {
+        display: none;
     }
 }

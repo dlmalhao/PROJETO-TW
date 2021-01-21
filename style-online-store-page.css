@@ -14,8 +14,9 @@ nav{
     background-repeat: no-repeat;
     min-height: 8vh;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     height: 200px;
+    justify-content: center;
 }
 
 .logo {
@@ -25,30 +26,27 @@ nav{
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
+    left: 15px;
 }
 
 /* Menu Text */
 .nav-area {
-    padding-left: 50px;
     list-style:none;
     display: flex;
     justify-content: space-around;
     width: 70%;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     font-size: 15px;
     font-weight: bold;
-    position: relative;
     padding-bottom: 30px;
 }
 
 
 nav .menu{
-    position: relative;
     text-decoration: none;
     color:white;
     text-align: center;
-    align-content: center;
 }
 
 /* Transition in Navigation area */
@@ -58,6 +56,19 @@ nav{
     transition-duration: 1s;
     transition-timing-function: linear;
     transition-delay: 0.25s;
+}
+
+.nav-area > li {
+    padding: 15px;
+}
+
+.nav-area > li:hover {
+    border-radius: 30px;
+    background-color: #640000;
+    transition:ease-in-out;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
 }
 
 /* Nav underline */
@@ -82,14 +93,16 @@ footer{
 }
 
 
-/*Adjust for smartphone / tablet*/
+/*Adjust for smartphone / tablet */
 @media screen and (max-width:1200px) {
     .nav-area{
         flex-direction: column;
-        align-items: center;
-        line-height: 2.2;
-        top: 10px;  
-        font-size: 15px;     
+        position: absolute;
+        line-height: 2;
+        font-size: 15px; 
+        margin-top: 22px;
+        
+
     }   
     #separation {
         display: none;
