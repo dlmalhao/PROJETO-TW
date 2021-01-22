@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation Area */
+
+.header{
+    display: flex;
+    align-items: center;
+    background-image: url("Imagens/Red-Gradient-Background.jpg");
+    background-repeat: no-repeat;
+    min-height: 8vh;
+    text-align: center;
+    height: 200px;
+}
+
+.logo {
+    background-image: url("Imagens/Portugal_FPF.png");
+    width: 120px;
+    height: 160px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 15px;
+}
+
+
+.headlogin {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 8px;
+    font-size: 15px;
+    position: absolute;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin: auto;
+}
+
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url("Imagens/original.jpg") ; /*mudar a foto no fotoshop, meter blur*/
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+
+
+.form {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;   
+}
+
+.button{
+    width: 300px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-btn {
+    padding: 10px 23px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+}
+
+#btn1 {
+    width: 104px;
+    position: relative;
+    height: 25%;
+    background: rgb(8, 71, 16);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-field{
+    
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    padding: 10px 0 ;
+    margin: 5px 0 ;
+    border-bottom: 1px solid #999;
+}
+
+
+.inputs{
+    position: absolute;
+    width: 280px;
+    top: 125px;
+    transition: 0.5s;
+    left: 20px;
+}
+
+
+.submit-button {
+    border: none;
+    background:rgb(134, 11, 11) ;
+    color: white;
+    width: 235px;
+    height: 100%;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+
+.check-box {
+    margin: 20px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 11px;
+}
+
+
+footer{
+    background-color: #990000;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.contact-area{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:650px){
+    .headlogin{
+        display: none;
+    }
+
+    .logo{
+        left: 0px;
+        position: relative;
+        margin: 6% auto;
+    }
+}

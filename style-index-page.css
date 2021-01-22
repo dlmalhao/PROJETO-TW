@@ -10,13 +10,13 @@
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: url("Imagens/Red-Gradient-Background.jpg");
     background-repeat: no-repeat;
     min-height: 8vh;
     text-align: center;
     padding: 0px;
     height: 200px;
-    justify-content: center;
 }
 
 
@@ -38,27 +38,54 @@ nav{
     list-style:none;
     display: flex;
     justify-content: space-around;
-    width: 70%;
     letter-spacing: 5px;
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 30px;
+    width: 70%;
 }
 
 
 nav .menu{
+    
     text-decoration: none;
-    color:white;
+    color:rgb(255, 255, 255);
     text-align: center;
+    
+    
 }
 
-/* Transition in Navigation area */
 
+/* Transition in Navigation area */
 nav{
     transition:ease-in-out;
     transition-duration: 1s;
     transition-timing-function: linear;
     transition-delay: 0.25s;
+}
+
+
+/* Nav underline */
+#main {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+} 
+
+
+footer{
+    background-color: #990000;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.contact-area{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+
 }
 
 .nav-area > li {
@@ -78,27 +105,7 @@ nav{
     transition-delay: 0.1s;
 }
 
-/* Nav underline */
-#subscribe {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
 
-
-footer{
-    background-color: #990000;
-    padding: 15px;
-    text-align: center;
-}
-
-
-.contact-area{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 5px;
-    font-size: 15px;
-}
 
 
 /*Adjust for smartphone / tablet */
@@ -129,3 +136,5 @@ footer{
         display: none;
     }
 }
+
+
