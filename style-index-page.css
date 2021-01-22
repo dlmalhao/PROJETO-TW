@@ -90,6 +90,10 @@ footer{
 
 .nav-area > li {
     padding: 15px;
+    transition:ease-in-out;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
 }
 
 .nav-area > li:hover {

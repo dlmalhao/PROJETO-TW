@@ -60,6 +60,10 @@ nav{
 
 .nav-area > li {
     padding: 15px;
+    transition:ease-in-out;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
 }
 
 .nav-area > li:hover {
@@ -101,8 +105,22 @@ footer{
         line-height: 2;
         font-size: 15px; 
         margin-top: 22px;
-
+        width: auto;
     }   
+
+    .nav-area > li {
+        padding: 0px;
+    }
+
+    .nav-area > li:hover {
+        border-radius: 30px;
+        background-color: #640000;
+        transition:ease-in-out;
+        transition-duration: 0.6s;
+        transition-timing-function: linear;
+        transition-delay: 0.1s;
+    }
+
     #separation {
         display: none;
     }
