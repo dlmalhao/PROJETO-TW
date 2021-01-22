@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     min-height: 8vh;
     text-align: center;
-    padding: 20px;
     height: 200px;
 }
 
@@ -26,6 +25,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
+    padding-left: 20px;
 }
 
 
@@ -34,15 +34,15 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
-    width: 70%;
-    letter-spacing: 8px;
+    width: 100%;
+    letter-spacing: 5px;
     font-size: 15px;
-    position: relative;
+    position: absolute;
     padding-bottom: 30px;
     text-decoration: underline;
     text-underline-offset: 8px;
     margin: auto;
-    right: 50px;
+    
 }
 
 

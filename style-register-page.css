@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     min-height: 8vh;
     text-align: center;
-    padding: 20px;
     height: 200px;
     transition:0.5s;
 }
@@ -27,6 +26,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
+    left: 20px;
 }
 
 
@@ -43,7 +43,6 @@
     text-decoration: underline;
     text-underline-offset: 8px;
     margin: auto;
-    right: 43px;
 }
 
 
@@ -73,7 +72,9 @@
 .button{
     width: 300px;
     margin: 35px auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .toggle-btn {
@@ -86,15 +87,12 @@
 }
 
 #btn1 {
-    top: 0;
     width: 104px;
     position: relative;
     height: 25%;
     background: rgb(8, 71, 16);
     border-radius: 30px;
     transition: 0.5s;
-    left: 110px;
-    
 }
 
 .input-field{
@@ -163,8 +161,8 @@ footer{
     }
 
     .logo{
+        left: 0px;
         position: relative;
         margin: 6% auto;
-        left: 11px;
     }
 }
