@@ -96,7 +96,6 @@ footer{
     font-size: 15px;
 }
 
-
 /*Adjust for smartphone / tablet */
 @media screen and (max-width:1200px) {
     .nav-area{
@@ -124,4 +123,42 @@ footer{
     #separation {
         display: none;
     }
+}
+
+/*Adjust for smartphone / tablet */
+@media screen and (max-width:500px) {
+
+    .nav-area {
+        flex-direction: row;
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 6% auto;
+        left: 0;
+        bottom: 15px;
+    }
+
+    nav {
+        height: 230px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .contact-area {
+        font-size: 10px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
 }

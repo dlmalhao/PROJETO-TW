@@ -149,5 +149,6 @@ footer{
     .logo{
         position: relative;
         margin: 6% auto;
+        left: 0;
     }
 }
