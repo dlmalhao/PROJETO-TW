@@ -10,7 +10,7 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     background-image: url("Imagens/Red-Gradient-Background.jpg");
     background-repeat: no-repeat;
     min-height: 8vh;
@@ -19,6 +19,7 @@ nav{
     height: 200px;
 }
 
+/*Image of Nav Area*/
 .logo {
     background-image: url("Imagens/Portugal_FPF.png");
     width: 120px;
@@ -97,6 +98,66 @@ footer{
     font-size: 15px;
 }
 
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens {
+    margin: 6% 2%;
+    position:static; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    border-left: rgb(8, 71, 16) solid 5px;
+    border-right:  rgb(8, 71, 16) solid 5px;
+    background: rgb(97,5,5);
+    background: linear-gradient(180deg, rgba(97,5,5,1) 0%, rgba(125,8,8,1) 50%, rgba(97,5,5,1) 100%);
+}
+
+.plantel {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #990000 ;
+    color: white;
+    margin-top: 15px;
+    border-radius: 15px ;
+    width: 115px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbord {
+    margin: 10px;
+    border-radius: 6%;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.caption {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    color:white;
+}
+
+.caption2 {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    color:white;
+}
 
 /*Adjust for smartphone / tablet */
 @media screen and (max-width:1200px) {
