@@ -1,4 +1,6 @@
+
 *{
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,116 +75,114 @@ nav{
     background-color: #990000;
 }
 
-.img1{
+#img1{
    background-image: url("Imagens/plantel.png");
    display: inline-block;
    background-repeat: no-repeat;
    background-size: 700px;
-   margin-left: 50px;
-   width: 570px;
-   height: 375px;
+   width: 600px;
+   height: 325px;
 
 }
 
-.img2{
+#img3{
     background-image: url("Imagens/konami.jpg");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-left: 50px;
-    width: 570px;
-    height: 375px;
+    background-position: center;
+    width: 600px;
+    height: 325px;
 }
 
-.img3{
+#img2{
     background-image: url("Imagens/fernandogomes.jpg");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-left: 50px;
-    width: 570px;
-    height: 375px;
+    background-position: center;
+    width: 600px;
+    height: 325px;
 }
 
-.img4{
+#img6{
     background-image: url("Imagens/noticia2.jpg");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-left: 50px;
-    width: 570px;
-    height: 375px;
+    background-position: center;
+    margin-right: 70px;
+    width: 600px;
+    height: 325px;
 }
 
-.img5{
+#img7{
     background-image: url("Imagens/plantel.png");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 700px;
-    margin-left: 50px;
-    width: 570px;
-    height: 375px;
+    width: 600px;
+    height: 325px;
 }
 
-.img6{
+#img5{
     background-image: url("Imagens/fifaworldcup.jpg");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-right: 50px;
-    width: 570px;
-    height: 375px;
+    background-position: center;
+    width: 600px;
+    height: 325px;
 }
 
 
 
-.img8{
+#img4{
     background-image: url("Imagens/vitoroliveira.jpg");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-right: 50px;
     width: 600px;
-    height: 375px;
+    height: 325px;
 }
 
-.img9{
+#img8{
     background-image: url("Imagens/croacia.png");
-    display: inline-block;
+    display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
-    margin-right: 50px;
     width: 600px;
-    height: 375px;
+    height: 325px;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBD9E4;
+    column-count: 2;
 }
 
 article p{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    margin-left: 22px;
 
+}
+
+article a{
+    text-decoration: none;
+    color: black;
 }
 
 .date{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    margin-left: 50px;
-
 }
 
-.head1{
-    width: 570px;
-    margin-left: 50px;
-    font-size: 22px;
+.rightside, .leftside{
+    margin-top: 10px;
 }
 
-.head2{
-    width: 500px;
-    margin-left: 50px;
-    font-size: 22px;
-}
 
-section{
-    column-count: 2;
-}
+
 
