@@ -78,6 +78,7 @@ nav{
 #img1{
    background-image: url("Imagens/plantel.png");
    display: inline-block;
+   border-radius: 13px;
    background-repeat: no-repeat;
    background-size: 700px;
    width: 600px;
@@ -89,6 +90,7 @@ nav{
     background-image: url("Imagens/konami.jpg");
     display: flex;
     background-repeat: no-repeat;
+    border-radius: 13px;
     background-size: 700px;
     background-position: center;
     width: 600px;
@@ -99,6 +101,7 @@ nav{
     background-image: url("Imagens/fernandogomes.jpg");
     display: flex;
     background-repeat: no-repeat;
+    border-radius: 13px;
     background-size: 700px;
     background-position: center;
     width: 600px;
@@ -109,6 +112,7 @@ nav{
     background-image: url("Imagens/noticia2.jpg");
     display: flex;
     background-repeat: no-repeat;
+    border-radius: 13px;
     background-size: 700px;
     background-position: center;
     margin-right: 70px;
@@ -121,6 +125,7 @@ nav{
     display: flex;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 13px;
     background-size: 700px;
     width: 600px;
     height: 325px;
@@ -131,6 +136,7 @@ nav{
     display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
+    border-radius: 13px;
     background-position: center;
     width: 600px;
     height: 325px;
@@ -142,6 +148,7 @@ nav{
     background-image: url("Imagens/vitoroliveira.jpg");
     display: flex;
     background-repeat: no-repeat;
+    border-radius: 13px;
     background-size: 700px;
     width: 600px;
     height: 325px;
@@ -152,6 +159,7 @@ nav{
     display: flex;
     background-repeat: no-repeat;
     background-size: 700px;
+    border-radius: 13px;
     width: 600px;
     height: 325px;
 }
@@ -159,7 +167,6 @@ nav{
 article{
     display: flex;
     justify-content: space-around;
-    background-color: #DBD9E4;
     column-count: 2;
 }
 
@@ -171,7 +178,7 @@ article p{
 
 article a{
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 .date{
@@ -183,6 +190,6 @@ article a{
     margin-top: 10px;
 }
 
-
-
-
+.leftnew, .rightnew{
+    margin-bottom: 19px;
+}
