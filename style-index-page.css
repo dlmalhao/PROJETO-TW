@@ -19,7 +19,6 @@ nav{
     height: 200px;
 }
 
-
 /*Image of Nav Area*/
 .logo {
     background-image: url("Imagens/Portugal_FPF.png");
@@ -105,7 +104,13 @@ footer{
     transition-delay: 0.1s;
 }
 
-
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
 
 
 /*Adjust for smartphone / tablet */
@@ -173,4 +178,31 @@ footer{
         justify-content: center;
     }
     
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
+    }
 }
