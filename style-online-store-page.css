@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Navigation Area */
@@ -11,47 +12,41 @@ nav{
     align-items: center;
     background-image: url("Imagens/Red-Gradient-Background.jpg");
     background-repeat: no-repeat;
-    font-family: 'Ubuntu', sans-serif;
     min-height: 8vh;
     text-align: center;
-    padding: 20px;
-    height: 300px;
+    padding: 0px;
+    height: 200px;
+    justify-content: center;
 }
 
-.logo{
+.logo {
     background-image: url("Imagens/Portugal_FPF.png");
-    display: inline-block;
-    height: 200px;
-    width: 150px;
-    background-size: 150px;
-    position: relative;
+    width: 120px;
+    height: 160px;
+    background-size: 120px;
     background-repeat: no-repeat;
-    top: -10px;
-    left: 20px;
-    
+    background-position: center;
+    position: absolute;
+    left: 15px;
 }
 
 /* Menu Text */
 .nav-area {
-    padding-left: 50px;
     list-style:none;
     display: flex;
     justify-content: space-around;
     width: 70%;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     font-size: 15px;
     font-weight: bold;
-    position: relative;
     padding-bottom: 30px;
 }
 
 
 nav .menu{
-    position: relative;
     text-decoration: none;
     color:white;
     text-align: center;
-    align-content: center;
 }
 
 /* Transition in Navigation area */
@@ -63,6 +58,23 @@ nav{
     transition-delay: 0.25s;
 }
 
+.nav-area > li {
+    padding: 15px;
+    transition:ease-in-out;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.nav-area > li:hover {
+    border-radius: 30px;
+    background-color: #640000;
+    transition:ease-in-out;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
 /* Nav underline */
 #online {
     text-decoration: underline;
@@ -71,5 +83,45 @@ nav{
 
 footer{
     background-color: #990000;
+    padding: 15px;
+    text-align: center;
 }
 
+
+.contact-area{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+/*Adjust for smartphone / tablet */
+@media screen and (max-width:1200px) {
+    .nav-area{
+        flex-direction: column;
+        position: absolute;
+        line-height: 2;
+        font-size: 15px; 
+        margin-top: 22px;
+        width: auto;
+    }   
+
+    .nav-area > li {
+        padding: 0px;
+    }
+
+    .nav-area > li:hover {
+        border-radius: 30px;
+        background-color: #640000;
+        transition:ease-in-out;
+        transition-duration: 0.6s;
+        transition-timing-function: linear;
+        transition-delay: 0.1s;
+    }
+
+    #separation {
+        display: none;
+    }
+}

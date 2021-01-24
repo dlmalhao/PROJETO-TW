@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation Area */
+
+.header{
+    display: flex;
+    align-items: center;
+    background-image: url("Imagens/Red-Gradient-Background.jpg");
+    background-repeat: no-repeat;
+    min-height: 8vh;
+    text-align: center;
+    height: 200px;
+}
+
+.logo {
+    background-image: url("Imagens/Portugal_FPF.png");
+    width: 120px;
+    height: 160px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+}
+
+
+.headlogin {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 15px;
+    position: absolute;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin: auto;
+    
+}
+
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url("Imagens/original.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;   
+}
+
+
+.form2 {
+    left: 19px;
+    top: 19px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;   
+    border-left: rgb(134, 11, 11) solid 5px;
+    border-right: rgb(134, 11, 11) solid 5px;
+}
+
+
+.button{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background: rgb(134, 11, 11);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+#login-button{
+    top: 80px;
+    left: 115px;
+    transition: 0.5s;
+}
+ 
+#register-button{
+    top: 255px;
+    left: 108px;
+    transition: 0.5s;
+}
+
+
+#p1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    top: 40px;
+    transition: 0.5s;
+}
+
+#p2{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    top: 215px;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: #990000;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.contact-area{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:650px){
+    .headlogin{
+        display: none;
+    }
+
+    .logo{
+        position: relative;
+        margin: 6% auto;
+    }
+}
