@@ -140,6 +140,13 @@ footer{
     font-size: 15px;
 }
 
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
 
 @media screen and (max-width:650px){
     .headlogin{
@@ -150,5 +157,32 @@ footer{
         position: relative;
         margin: 6% auto;
         left: 0;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
     }
 }

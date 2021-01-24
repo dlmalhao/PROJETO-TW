@@ -17,6 +17,11 @@ nav{
     text-align: center;
     padding: 0px;
     height: 200px;
+
+    transition:ease-in-out;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.25s;
 }
 
 /*Image of Nav Area*/
@@ -48,15 +53,6 @@ nav .menu{
     text-decoration: none;
     color:white;
     text-align: center;
-}
-
-/* Transition in Navigation area */
-
-nav{
-    transition:ease-in-out;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    transition-delay: 0.25s;
 }
 
 .nav-area > li {
@@ -114,8 +110,7 @@ article {
     border-radius: 40px;
     border-left: rgb(8, 71, 16) solid 5px;
     border-right:  rgb(8, 71, 16) solid 5px;
-    background: rgb(97,5,5);
-    background: linear-gradient(180deg, rgba(97,5,5,1) 0%, rgba(125,8,8,1) 50%, rgba(97,5,5,1) 100%);
+    background: white;
 }
 
 .plantel {
@@ -148,16 +143,24 @@ img {
     font-size: 15px;
     font-weight: bold;
     justify-content: center;
-    color:white;
 }
 
 .caption2 {
     display: flex;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     justify-content: center;
-    color:white;
 }
+
+
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
 
 /*Adjust for smartphone / tablet */
 @media screen and (max-width:1200px) {
@@ -189,6 +192,12 @@ img {
 }
 
 
+@media screen and (max-width:750px) {
+    .plantel{
+        margin: 0;
+    }
+}
+
 @media screen and (max-width:500px) {
 
     .nav-area {
@@ -209,6 +218,10 @@ img {
         bottom: 15px;
     }
 
+    .imagens{
+        margin-top: 40px;
+    }
+
     nav {
         height: 230px;
         display: flex;
@@ -222,6 +235,29 @@ img {
     footer {
         display: flex;
         justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
     }
     
 }
