@@ -6,11 +6,18 @@
     <link rel="stylesheet" type="text/css" href="style-online-store-page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <title>Online Store - Portugal</title>
+    <title>Online Store - Page1 - Portugal</title>
 </head>
 <body>
+   <!------- <nav>
+        <a href="main_page.html" class="logo"></a>
+      
+    </nav> --->
+   
     <nav>
+        
         <a href="index.html" class="logo"></a>
+        
         <ul class="nav-area">
             <li>
                 <a class="menu" id="main" href="index.html">Home</a>
@@ -33,10 +40,152 @@
         </ul>
     </nav>
     
+    <div class="cart">
+        <img src="imagensLoja/cart.png" width="40px" onclick="openWinBuy()">
+    </div>
+    
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            
+            <select >
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/william.jpeg" onclick="openWinDetail()" /> 
+                    <img class="top" src="imagensLoja/bruno.jpeg" onclick="openWinDetail()" />
+                </div>
+                <h4>Portugal Home Shirt</h4>
+                <p>140.00€</p>
+            
+            
+        </div>
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/rubendias.jpeg" />
+                    <img class="top" src="imagensLoja/ricardo.jpeg" />
+                </div>
+                <h4>Portugal Away Shirt</h4>
+                <p>140.00€</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/aquecimento2.jpeg" />
+                    <img class="top" src="imagensLoja/aquecimento.jpeg" />
+                </div>
+                <h4>Portugal Warmup Shirt</h4>
+                <p>60.00€</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/camisola verde2.jpeg" />
+                    <img class="top" src="imagensLoja/camisola verde.jpeg" />
+                </div>
+                <h4>T-Shirt Breathe Squad</h4>
+                <p>45.00€</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/calcoes2.jpeg" />
+                    <img class="top" src="imagensLoja/calcoes.jpeg" />
+                </div>
+                <h4>Portugal Home Shorts</h4>
+                <p>70.00€</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/T-SHIRT TREINO VERDE-ESCURA2.jpeg" />
+                    <img class="top" src="imagensLoja/T-SHIRT TREINO VERDE-ESCURA.jpeg" />
+                </div>
+                <h4>Portugal Training Shirt</h4>
+                <p>45.00€</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/CAMISOLA FATO DE TREINO2.jpeg" />
+                    <img class="top" src="imagensLoja/CAMISOLA FATO DE TREINO.jpeg" />
+                </div>
+                <h4>Portugal Sweatshirt tracksuit</h4>
+                <p>120.00€</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4" >
+                <div id="cf">
+                    <img class="bottom" src="imagensLoja/CASACO HINO VERDE-AZULADO 2.jpeg" />
+                    <img class="top" src="imagensLoja/CASACO HINO VERDE-AZULADO.jpeg" />
+                </div>
+                <h4>Portugal Blue Coat</h4>
+                <p>85.00€</p>
+            </div>
+        </div>
+
+    </div>
+    </div>   
+    
+    <div class="btn-container">
+        <div class="page-btn">
+            <span id="id1">1</span>
+            <span onclick="openWin()">2</span>
+            <span onclick="openWin2()">3</span>
+
+        </div>
+    </div>
+
     <footer>
         <div>
             <a href="#" class="contact-area">Contact Us</a>
         </div>
     </footer>
+
+    <script>
+        function openWin() {
+            setTimeout(function(){ window.location.href = "online-store-page2.html"; }, 500);
+        }
+        function openWin2() {
+            setTimeout(function(){ window.location.href = "online-store-page3.html"; }, 500);
+        }
+
+        function openWinDetail() {
+            setTimeout(function(){ window.location.href = "products-details.html"; }, 500);
+        }
+
+        function  openWinBuy() {
+            setTimeout(function(){ window.location.href = "cart.html"; }, 500);
+        }
+
+   
+    </script>
+    
 </body>
 </html>

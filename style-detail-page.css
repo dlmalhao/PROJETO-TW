@@ -87,10 +87,7 @@ footer{
     text-align: center;
 }
 
-.btn-container{
-    display: flex;
-    justify-content: center;
-}
+
 .contact-area{
     text-decoration: none;
     color: white;
@@ -109,6 +106,7 @@ footer{
     
     
 }
+
 
 #cf {
     position:relative;
@@ -145,8 +143,7 @@ h2{
 
 .row-2{
     justify-content: space-between;
-    margin-right: 7%;
-    margin-bottom: 20px;
+    margin: 100px auto 50px;
 }
 
 .col-4{
@@ -240,13 +237,139 @@ select:focus{
 
 
 
+.img1 {    
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.img1 img{
+    width: 400px;
+    border-radius: 5%;
+
+}
+
+.col-5 {
+    flex-basis: 170px;
+    padding: 20px;
+  
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-3{
+   
+    padding: 40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 261px;    
+}
+.col-3 >select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-3 > input{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.div2{
+    display: flex;
+    justify-content: center;
+    border-right: #990000 solid 5px;
+    border-radius: 30px;
+    border-bottom: #990000 solid 5px;
+}
+
+
+.single-product .col-2 img{
+     
+     border-radius: 5%;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select{
+     display: block;
+     padding: 10px;
+     margin-top: 10px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20;
+    margin-right: 10px;
+    border: 1px solid #990000;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.single-product .fa{
+    color: #990000;
+    margin-left: 10px;
+}
+
+.col-5{
+    display: flex;
+    margin: 10px;
+   
+  
+}
+
+
+
+.col-5 img{
+    
+    width: 100px ;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.col-5 h4{
+    margin-left: 15%;
+    font-size: 20px;
+
+    
+    
+}
+.col-5text p{
+    margin-bottom: 100px;
+    margin-left: 30%;
+}
 
 
 /*-------------------- cart items--------------------*/
 
 .toptable{
     text-align: center;
-    
     
     
 }
@@ -270,7 +393,7 @@ th{
     padding: 5px;
     color: #fff;
     background-color: rgb(8, 71, 16);
-    font-weight: bold;
+    font-weight: normal;
 }
 
 
@@ -283,7 +406,6 @@ td input{
     width: 40px;
     height: 30px;
     padding: 5px;
-    
 }
 
 td a{
@@ -358,15 +480,6 @@ tr{
         margin-left: 0;
     }
 
-    .cart{
-        margin-right: 100px;
-        margin-bottom: 10px;
-    }
-
-    .row-2{
-        margin-right: 10%;
-        
-    }
     
 
 }
