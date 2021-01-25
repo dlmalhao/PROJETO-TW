@@ -1,12 +1,11 @@
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-nav{
+nav {
     display: flex;
     align-items: center;
     background-image: url("Imagens/Red-Gradient-Background.jpg");
@@ -68,18 +67,38 @@ nav .menu{
 }
 
 
-.contact-area{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 5px;
-    font-size: 15px;
+#subscribe {
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 
+footer{
+  background-color: #990000;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.contact-area{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+#terms{
+  font-size: 10px;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
 /* Transition in Navigation area */
 
-nav{
+nav {
     transition:ease-in-out;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -92,48 +111,32 @@ nav{
     text-underline-offset: 8px;
 }
 
-.contact-area{
-    background-color: #990000;
+main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  gap: 25px;
+  align-items: center;
 }
 
-div{
-    margin-left: 90px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-
+main div h1 {
+  margin-bottom: 20px;
 }
 
-div b{
-    text-transform: uppercase;
-    font-size: 20px;
-    
+main div img {
+  max-width: 500px;
+  border-radius: 5px;
 }
 
-div p{
-    margin-top: 50px;
+main div hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-img{
-    position: relative;
-    left:1050px;
-    top: 40px;
-    background-position: center;
-    width: 380px;
-    background-position: center;
-    border-radius: 8px;
-}
-
-hr{
-    width: 1100px;
-}
-
-h1{
-    font-size: xx-large;
-    margin-left: 90px;
-    text-shadow: 1px 1px rgb(54, 54, 54);   
-}
-
-a{
+a {
     text-decoration: none;
     color: red;
 }
@@ -155,10 +158,10 @@ footer{
         flex-direction: column;
         position: absolute;
         line-height: 2;
-        font-size: 15px; 
+        font-size: 15px;
         margin-top: 22px;
         width: auto;
-    }   
+    }
 
     .nav-area > li {
         padding: 0px;
@@ -172,25 +175,142 @@ footer{
         transition-timing-function: linear;
         transition-delay: 0.1s;
     }
+}
 
-    #separation {
-        display: none;
-    }
+@media screen and (max-width: 1100px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    img{
-        position: relative;
-        left: 200px;
-    }
-
-    div{
-        margin-left: 40px;
-        margin-top: 200px;
-        margin-bottom: 70px;
-    }
-
-    h1{
-        margin-top: 170px;
-    }
+  main div img {
+    max-width: 400px;
+  }
+}
 
 
-}    
+@media screen and (max-width:500px){
+  .nav-area {
+    flex-direction: row;
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    position: relative;
+    margin: 6% auto;
+    left: 0;
+    bottom: 15px;
+  }
+
+  nav {
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .contact-area {
+    font-size: 10px;
+  }
+
+  .ftr {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contacts{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  #newsletter{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  #terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  main {
+    width: 85%;
+  }
+
+  main div img {
+    max-width: 300px;
+  }
+
+  .nav-area {
+    flex-direction: row;
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    position: relative;
+    margin: 6% auto;
+    left: 0;
+    bottom: 15px;
+  }
+
+  nav {
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .contact-area {
+    font-size: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contacts{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+
+  #newsletter{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  #terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+  }
+}

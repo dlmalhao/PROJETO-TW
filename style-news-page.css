@@ -69,12 +69,33 @@ nav .menu{
 }
 
 
+#subscribe {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
+.ftr{
+    background-color: #990000;
+    padding: 15px;
+    text-align: center;
+}
+
+
 .contact-area{
     text-decoration: none;
     color: white;
     font-weight: bold;
     letter-spacing: 5px;
     font-size: 15px;
+}
+
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
 }
 
 
@@ -93,9 +114,6 @@ nav{
     text-underline-offset: 8px;
 }
 
-.contact-area{
-    background-color: #990000;
-}
 
 #img1{
    background-image: url("Imagens/plantel.png");
@@ -264,4 +282,61 @@ article a{
   
 #img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover,#img6:hover,#img7:hover,#img8:hover {
     transform: scale(1.01);
+}
+@media screen and (max-width:500px){
+    .nav-area {
+        flex-direction: row;
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 6% auto;
+        left: 0;
+        bottom: 15px;
+    }
+
+    nav {
+        height: 230px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .contact-area {
+        font-size: 10px;
+    }
+
+    .ftr {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
+    }
 }

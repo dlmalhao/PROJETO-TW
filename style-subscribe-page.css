@@ -100,6 +100,119 @@ footer{
     font-size: 15px;
 }
 
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+
+
+.radbtn label{
+    position: relative;
+    bottom: 2px;
+    right: 12px;
+    color: rgb(121, 121, 121);
+    font-size: 13px;
+}
+
+.form {
+    max-width: 400px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s;   
+    background:rgb(255, 255, 255);
+}
+
+
+
+
+.button{
+    width: 300px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-btn {
+    padding: 10px 23px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+}
+
+#btn1 {
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    background: rgb(8, 71, 16);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-field{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid #999;
+}
+
+
+.inputs{
+    margin: 0 auto;
+    width: 280px;
+    transition: 0.5s;
+}
+
+
+.submit-button {
+    border: none;
+    background:rgb(134, 11, 11) ;
+    color: white;
+    width: 235px;
+    height: 100%;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.check-box {
+    margin: 20px 10px 30px 0;
+}
+
+#checkbtn1, #checkbtn2 {
+    width: auto;
+    position: relative;
+    left: 100px;
+}
+
+.inputs :last-child button{
+    margin: 0 auto;
+    display: block;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url("Imagens/ImgSubscribe.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
 
 /*Adjust for smartphone / tablet */
 @media screen and (max-width:1200px) {
@@ -124,8 +237,63 @@ footer{
         transition-timing-function: linear;
         transition-delay: 0.1s;
     }
+}
 
-    #separation {
-        display: none;
+@media screen and (max-width:500px) {
+
+    .nav-area {
+        flex-direction: row;
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 6% auto;
+        left: 0;
+        bottom: 15px;
+    }
+
+    nav {
+        height: 230px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .contact-area {
+        font-size: 10px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
     }
 }

@@ -22,21 +22,67 @@
                 <a class="menu" id="club" href="club-page.html">Club</a>
             </li>
             <li>
-                <a class="menu" id="online" href="online-store-page.html">Online Store</a>
+                <a class="menu" id="online" href="online-store-page.html">Store</a>
             </li>
             <li>
                 <a class="menu" id="subscribe" href="subscribe-page.html">Subscribe</a>
             </li>
             <li>
-                <a class="menu" id="Login" href="sign-in-page.html">Login/Register</a>
+                <a class="menu" id="Login" href="sign-in-page.html">Sign in</a>
             </li>
         </ul>
     </nav>
-    
-    <footer>
-        <div>
-            <a href="#" class="contact-area">Contact Us</a>
+    <main>
+        <div class="back" id="back1">
+            <div class="form">
+                <div class="form2">
+
+                    </div>
+                        <div class="button">
+                        <p class="toggle-btn" id="btn1">Subscribe</p>
+                    </div>
+        
+                    <form class="inputs">
+
+                        <div>
+                            <input type="text" class="input-field" id="first_name" placeholder="First name" required>
+                        </div>
+                        <div>
+                            <input type="text" class="input-field" id="last_name" placeholder="Last Name" required>
+                        </div>
+                        <div>
+                            <input type="email" class="input-field" id="mail" placeholder="E-mail" required>
+                        </div>
+                        <div class="radbtn">
+                            <input type="radio" name="gender" class="input-field" id="checkbtn1" checked>
+                            <label for="checkbtn1">Male</label>
+                        </div>
+                        <div class="radbtn">
+                            <input type="radio" name="gender" class="input-field" id="checkbtn2">
+                            <label for="checkbtn2">Female</label>
+                        </div>
+                        <div>
+                            <input type="text" class="input-field" id="birth" placeholder="Birth date" required>
+                        </div>
+                        <div>
+                            <input type="text" class="input-field" id="locality" placeholder="Your locality" required>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="check-box" required><span>I agree to the terms and conditions</span>
+                        </div>
+                        <div>
+                            <button type="button" class="submit-button" id="register" onclick="return subscribe()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div> 
         </div>
+    </main>
+    <footer>
+        <a id="contacts" href="#" class="contact-area">Contacts</a>
+        <a id="terms" href="#" class="contact-area">Terms and conditions</a>
+        <a id="newsletter" href="subscribe-page.html" class="contact-area">Subscribe for newsletter</a>
     </footer>
+<script src="java.js"></script>
 </body>
 </html>

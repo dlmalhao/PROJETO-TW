@@ -19,7 +19,6 @@ nav{
     height: 200px;
 }
 
-
 /*Image of Nav Area*/
 .logo {
     background-image: url("Imagens/Portugal_FPF.png");
@@ -105,7 +104,13 @@ footer{
     transition-delay: 0.1s;
 }
 
-
+#terms{
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
 
 
 /*Adjust for smartphone / tablet */
@@ -138,3 +143,66 @@ footer{
 }
 
 
+@media screen and (max-width:500px) {
+
+    .nav-area {
+        flex-direction: row;
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 6% auto;
+        left: 0;
+        bottom: 15px;
+    }
+
+    nav {
+        height: 230px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .contact-area {
+        font-size: 10px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contacts{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #newsletter{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    #terms{
+        font-size: 10px;
+        letter-spacing: 3px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
+    }
+}
