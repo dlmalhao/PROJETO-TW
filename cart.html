@@ -1,138 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style-online-store-page.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <title> Cart Page - Portugal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style-online-store-page.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <title> Cart Page - Portugal</title>
 </head>
+
 <body>
-   <!------- <nav>
-        <a href="main_page.html" class="logo"></a>
-      
-    </nav> --->
-   
-    <nav>
-        
-        <a href="index.html" class="logo"></a>
-        
-        <ul class="nav-area">
-            <li>
-                <a class="menu" id="main" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="menu" id="news" href="news-page.html">News</a>
-            </li>
-            <li>
-                <a class="menu" id="club" href="club-page.html">Club</a>
-            </li>
-            <li>
-                <a class="menu" id="online" href="online-store-page.html">Store</a>
-            </li>
-            <li>
-                <a class="menu" id="subscribe" href="subscribe-page.html">Subscribe</a>
-            </li>
-            <li>
-                <a class="menu" id="Login" href="sign-in-page.html">Sign in</a>
-            </li>
-        </ul>
-    </nav>
 
+  <nav>
+    <a href="index.html" class="logo"></a>
+    <ul class="nav-area">
+      <li><a class="menu" id="main" href="index.html">Home</a></li>
+      <li><a class="menu" id="news" href="news-page.html">News</a></li>
+      <li><a class="menu" id="club" href="club-page.html">Club</a></li>
+      <li><a class="menu" id="online" href="online-store-page.html">Store</a></li>
+      <li><a class="menu" id="subscribe" href="subscribe-page.html">Subscribe</a></li>
+      <li><a class="menu" id="Login" href="sign-in-page.html">Sign in</a></li>
+    </ul>
+  </nav>
 
-    <!------------- cart items details ------------>
-
-
-    <div class="small-container cart-page" >
-
-
+  <div class="small-container cart-page">
     <table>
-        <tr >
-            <th class="toptable">Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
-
-        <tr>
-            <td>
-
-                <div class="cart-info">
-                    <img src="imagensLoja/bruno.jpeg" width="20%"  >
-                 <div>
-                     <p>Portugal Home Shirt</p>
-                     <small>Price: 140.00€</small>
-                     <br>
-                     <a href="">Remove</a>
-                 </div>   
-                </div>
-
-            </td>
-            <td><input type="number" value="1" disabled></td>
-            <td>140.00€</td>
-        </tr>
-        <tr>
-            <td>
-
-                <div class="cart-info">
-                    <img src="imagensLoja/hoddiepreto.jpeg" width="10%"  >
-                 <div>
-                     <p>Portugal Black Hoddie</p>
-                     <small>Price: 65.00€</small>
-                     <br>
-                     <a href="">Remove</a>
-                 </div>   
-                </div>
-
-            </td>
-            <td><input type="number" value="1" disabled></td>
-            <td>65.00€</td>
-        </tr>
-        <tr>
-            <td>
-
-                <div class="cart-info">
-                    <img src="imagensLoja/oculos.jpeg" width="10%"  >
-                 <div>
-                     <p>Portugal Glasses </p>
-                     <small>Price: 10.00€</small>
-                     <br>
-                     <a href="">Remove</a>
-                 </div>   
-                </div>
-
-            </td>
-            <td><input type="number" value="2" disabled></td>
-            <td>20.00€</td>
-        </tr>
-        
+      <tr>
+        <th class="toptable">Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagensLoja/bruno.jpeg" width="20%">
+            <div>
+              <p>Portugal Home Shirt</p>
+              <small class="prod">Price: 140.00€</small>
+              <br>
+              <a href="">Remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input id="prod1" type="number" value="1"></td>
+        <td class="prod1">140.00€</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagensLoja/hoddiepreto.jpeg" width="10%">
+            <div>
+              <p>Portugal Black Hoddie</p>
+              <small class="prod">Price: 65.00€</small>
+              <br>
+              <a href="">Remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input id="prod2" type="number" value="1"></td>
+        <td class="prod2">65.00€</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="imagensLoja/oculos.jpeg" width="10%">
+            <div>
+              <p>Portugal Glasses </p>
+              <small class="prod">Price: 10.00€</small>
+              <br>
+              <a href="">Remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input id="prod3" type="number" value="2"></td>
+        <td class="prod3">20.00€</td>
+      </tr>
     </table>
 
-
     <div class="total-price">
-
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>225.00€</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>3.00€</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>228.00€</td>
-            </tr>
-        </table>
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td id="alterar-subtotal">225.00€</td>
+        </tr>
+        <tr>
+          <td>Tax (23%)</td>
+          <td id="alterar-taxa">51.75€</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td id="alterar-total">276.75€</td>
+        </tr>
+      </table>
     </div>
 
-    </div>
+  </div>
 
-    <footer>
-        <div>
-            <a href="#" class="contact-area">Contact Us</a>
-        </div>
-    </footer>
-        
-    </body>
+  <footer>
+    <div>
+      <a href="#" class="contact-area">Contact Us</a>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    document.getElementById("prod1").addEventListener('change', (event) => {
+      updateCart(document.getElementById("prod1"))
+    });
+
+    document.getElementById("prod2").addEventListener('change', (event) => {
+      updateCart(document.getElementById("prod2"))
+    });
+
+    document.getElementById("prod3").addEventListener('change', (event) => {
+      updateCart(document.getElementById("prod3"))
+    });
+
+    function updateCart(item) {
+      if (item.value < 1) {
+        item.value = 1
+      }
+
+      let num = parseInt(String(item.id).replace(/\D/g,""))
+      let subtotal = document.getElementById("alterar-subtotal")
+      let taxa = document.getElementById("alterar-taxa")
+      let total = document.getElementById("alterar-total")
+      let subtotal_val = 0.0
+
+      for(let i = 0; i < document.getElementsByClassName("prod").length; i++) {
+        subtotal_val += parseFloat(document.getElementsByClassName("prod")[i].innerHTML.split(":")[document.getElementsByClassName("prod")[i].innerHTML.split(":").length - 1].replace(" ", "").replace("€", "")) * document.getElementsByTagName("input")[i].value
+        if ((i + 1) == num) {
+          document.getElementsByClassName(item.id)[0].innerHTML = (parseFloat(document.getElementsByClassName("prod")[i].innerHTML.split(":")[document.getElementsByClassName("prod")[i].innerHTML.split(":").length - 1].replace(" ", "").replace("€", "")) * document.getElementsByTagName("input")[i].value).toFixed(2) + "€"
+        }
+      }
+
+      subtotal.innerHTML = subtotal_val.toFixed(2) + "€"
+      taxa.innerHTML = (parseFloat(subtotal_val.toFixed(2)) * 0.23).toFixed(2) + "€"
+      total.innerHTML = (parseFloat(subtotal.innerHTML.replace("€", "")) + parseFloat(taxa.innerHTML.replace("€", ""))).toFixed(2) + "€"
+    }
+  </script>
+
+</body>
